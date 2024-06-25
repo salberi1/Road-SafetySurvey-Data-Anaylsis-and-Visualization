@@ -8,10 +8,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Libraries Used 
 
-What things you need to install the software and how to install them
+Here are all of the libraries use to do the full analysis
 
 ```
-Give examples
+import pandas as pd    # creating and formating dataframe
+import numpy as np     #don't entirely need this but is helpful for calculations
+from roughviz.charts import Bar, Barh    # third party library, helps create nice looking graphs
+import matplotlib.pyplot as plt          # another library for graph visualization
+from matplotlib import lines
+from matplotlib import patches
+from matplotlib.patheffects import withStroke
+import seaborn as sns    # For graphic visualization
+import os
+import tqdm
+import imageio      # helps wrap graphs into image filees or gifs
+from textblob import TextBlob      # sentiment analyzer for comments
+
+from PIL import Image
+from matplotlib import font_manager
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox, OffsetBox
 ```
 
 ## Final Paper
